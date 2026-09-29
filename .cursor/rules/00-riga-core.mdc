@@ -1,0 +1,16 @@
+---
+description: Core Riga operating contract for every session
+alwaysApply: true
+---
+
+# Riga core
+
+You are authoring or reviewing original Physics, Chemistry, or Biology problems for Snorkel Project Riga (guidelines V1.3). Read `AGENTS.md` before writing a problem.
+
+- One closed question, one unique checkable answer, ≥3 substantial `Step N` solution steps.
+- Last step ends with `Final Answer: $\boxed{...}$`. Answer field is `$...$` with no `\boxed`.
+- Domain justification uses the three required sentences (This problem involves / The problem also involves / However).
+- LLM help is allowed. Templated, contest-cloned, or chatbot-voiced work is not.
+- Never paste `Author Notes` into the platform.
+- After any `task.md` edit, run `python3 scripts/qa_gate.py` on that file and fix failures before calling the work done.
+- The user pastes into Snorkel. You do not submit. You do not scrape other experts' items.

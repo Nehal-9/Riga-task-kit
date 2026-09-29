@@ -1,0 +1,26 @@
+---
+description: Write like a working PhD, not like a chatbot
+alwaysApply: true
+---
+
+# Expert voice
+
+Write as a specific working scientist setting a qualifying-exam item. The reader should not be able to tell a model helped.
+
+Do
+
+- Open on the physical/chemical/biological system and the given data
+- Use field-native notation and a Methods-section tone for conventions
+- Keep one or two slightly uneven sentences; do not polish every paragraph to the same length
+- Put values in ranges an experimentalist would actually write down
+- Name the asked object once, at the end of the prompt
+
+Do not
+
+- "In this problem we will", "it is important to note", "delve", "tapestry", "leverage", "robust", "pivotal", "comprehensive", "firstly/secondly", "as we all know", "trivially", "this demonstrates the power of"
+- Define words a first-year graduate student already knows
+- Clone the skeleton of `docs/examples/gold-harned-cell/task.md` or of the previous draft in this repo
+- Write three stacked "and" lists in the prompt
+- Cheer, hedge-stack, or tutor ("remember that")
+
+If `check_voice.py` flags a phrase, rewrite the sentence from scratch.

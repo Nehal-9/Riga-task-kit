@@ -1,0 +1,15 @@
+---
+description: Physics-specific Riga constraints
+globs: submissions/**/*phys*/**/task.md,submissions/**/*Physics*/**/task.md
+alwaysApply: false
+---
+
+# Physics
+
+Prefer graduate-core reasoning: when an approximation is illegal, identical particles, gauges, ensembles, which operator is being measured.
+
+- State the sign convention, inertial frame, and which quantities are exact vs leading-order.
+- Answers that are quantities need SI (or a stated unit system) in the answer field.
+- No "show that the wavefunction satisfies". Ask for a number, vector, expression, set of quantum numbers, or classification label.
+- Do not dump a derivation as the answer. The answer is the object; the steps are the derivation.
+- Problem types and answer types: `data/catalogs/problem_types.json`, `answer_types.json` → Physics.

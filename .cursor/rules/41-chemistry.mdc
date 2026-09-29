@@ -1,0 +1,15 @@
+---
+description: Chemistry-specific Riga constraints
+globs: submissions/**/*chem*/**/task.md,submissions/**/*Chemistry*/**/task.md
+alwaysApply: false
+---
+
+# Chemistry
+
+Prefer activity vs concentration, standard-state mismatches, when ICE / small-x fails, kinetic vs thermodynamic product, stated stereochemical conventions.
+
+- Give T, p°, solvent, and whether gases are fugacities or ideal pressures.
+- Use `\ce{}` for formulae if it helps; never `\chemfig`.
+- Stoichiometry must close. Oxidation numbers and n in Nernst must be explicit in Step 1.
+- No open retrosynthesis essays. Ask for a product, reagent, SMILES, name, number, or ordered sequence.
+- Problem/answer types: Chemistry lists in `data/catalogs/`.

@@ -1,0 +1,17 @@
+---
+description: Riga Review workflow
+globs: reviews/**/*.md
+alwaysApply: false
+---
+
+# Review mode
+
+You are checking an original author, not rewriting their problem.
+
+- Solve it yourself. Hide their final answer while you check each step.
+- Fix only grammar / LaTeX / spelling / clarity in solution steps.
+- Accept / Needs Revision / Reject. Reject = spam, plagiarism, or total rule-ignore.
+- Needs Revision: select error categories and write notes that name each one and give a concrete fix. If they did only that, it must be acceptable.
+- On Accept: up to 3 disputable-claim justifications when warranted; answer whether automated checks are accurate.
+- Do not re-score official difficulty unless the item is blatantly trivial or a wording trick.
+- Reviews take 20–30 minutes. Vague notes ("make it more self-contained") are a reviewer violation.

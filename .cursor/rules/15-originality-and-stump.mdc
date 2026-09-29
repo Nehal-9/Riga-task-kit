@@ -1,0 +1,18 @@
+---
+description: Originality, model-stumping, and anti-clone rules
+alwaysApply: true
+---
+
+# Originality and stump design
+
+Design the failure mode first. The model should miss because a real applicability condition is easy to drop, not because the English is foggy.
+
+Allowed pressure: activity vs concentration, wrong $n$, illegal small-$x$, identical-particle sign, stated non-default standard state, which operator is measured, reading-frame after a stated splice, neglected junction.
+
+Forbidden: ambiguous referents, hidden definitions, riddles, MC/T-F, contest clones with integers swapped, paraphrases of `docs/examples/gold-harned-cell/`, or the previous draft in `submissions/`.
+
+If the last problem opened with a cell diagram, the next one must not. Rotate the scientific object: rate law, Hamiltonian, pedigree, sequence plus a code table, circuit with element values, enzyme numbers.
+
+PDF example problems (pages 75–96) are scientific inspiration only. The PDF says they are not the project's LaTeX standard.
+
+If both hard models solve it, change the science. Do not thicken the wording.

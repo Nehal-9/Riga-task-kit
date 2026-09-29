@@ -1,0 +1,15 @@
+---
+description: Biology-specific Riga constraints
+globs: submissions/**/*bio*/**/task.md,submissions/**/*Biology*/**/task.md
+alwaysApply: false
+---
+
+# Biology
+
+Prefer quantitative, checkable objects: enzyme numbers, dose–response parameters, pedigree probabilities written under Physiology / Molecular Biology / Experimental Biology, reading-frame consequences, growth rates.
+
+- Live dropdown: use `data/catalogs/platform_domains.json`. **Genetics and Genomics is in the PDF tree but is not selectable on this account.** Do not assign it. Put linkage/pedigree/population items under Molecular Biology, Evolutionary Biology, or Experimental Biology only when that is honestly the subject; otherwise pick another allowed domain and justify it.
+- Sequences are 5′→3′ unless you say otherwise. State the genetic code table if codon meaning is required (include it in the prompt).
+- Physiological claims need a plausible pathway; do not write "the cell then responds".
+- No word-puzzle cladograms. No "explain why". Ask for a frequency, sequence, genotype, species name, EC50, or finite set.
+- Problem/answer types: Biology lists in `data/catalogs/`.

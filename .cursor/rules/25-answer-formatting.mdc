@@ -1,0 +1,23 @@
+---
+description: Answer box vs last-step boxed payload
+globs: submissions/**/*.md,docs/examples/**/*.md
+alwaysApply: false
+---
+
+# Answer formatting
+
+Last solution step must end with:
+
+`Final Answer: $\boxed{<payload>}$`
+
+Answer field must be exactly:
+
+`$<payload>$`
+
+No `\boxed` in the Answer field. No extra words. No units omitted if the prompt left them out.
+
+If the answer is parametric, the prompt must say which symbols may remain. If a decimal is required, the prompt must give rounding (significant figures or decimal places). A model's rounding is not an error without that instruction.
+
+Equivalent forms of the same unique object are allowed. `DNE` is not.
+
+See `docs/guidelines/answer-formatting.md` and the conversion tables in `docs/guidelines/latex.md`.

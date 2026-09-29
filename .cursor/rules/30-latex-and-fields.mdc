@@ -1,0 +1,18 @@
+---
+description: Riga LaTeX and Snorkel field conventions
+globs: submissions/**/*.md,docs/examples/**/*.md
+alwaysApply: false
+---
+
+# LaTeX and fields
+
+- Math: `$...$` or `$$...$$` only. Never `\(...\)` or `\[...\]`.
+- Units: `9.8\,\mathrm{m/s}^2` (or `\text{...}`). If the prompt omitted units, put them in the answer.
+- Fractions: `\frac{a}{b}`, simplified unless the unsimplified form is the point.
+- Polynomials: descending powers. Inequalities: `\leq` `\geq`, never `<=`.
+- Sets: `\{1,2,3\}`. `mhchem` (`\ce{}`) is allowed. `chemfig` is not.
+- No `\item`, no `**bold**` on step titles, no KaTeX-only macros (`\lang`).
+- Each solution box body starts with `Step N`. Last line of the last box: `Final Answer: $\boxed{...}$`
+- Answer box: `$...$` matching the boxed payload, no `\boxed`.
+- Concepts: 1–5 noun phrases. Problem type / answer type come from `data/catalogs/`.
+- Domain Explanation: three sentences, required openers, runner-up named.
